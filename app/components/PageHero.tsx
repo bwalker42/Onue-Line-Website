@@ -1,0 +1,1 @@
+export function PageHero({kicker,title,children}:{kicker:string,title:string,children:React.ReactNode}){return <section className="pageHero"><p className="eyebrow">{kicker}</p><h1>{title}</h1><p>{children}</p></section>}
