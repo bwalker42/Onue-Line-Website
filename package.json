@@ -1,6 +1,6 @@
 {
   "name": "onue-line-cruises",
-  "version": "2.1.0-alpha.1",
+  "version": "2.1.0-alpha.2",
   "private": true,
   "engines": {
     "node": ">=22.13.0"
