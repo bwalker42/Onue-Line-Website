@@ -1,5 +1,13 @@
 # Changelog
 
+## 2.1.0-beta.1 — 2026-08-11
+
+- Added interactive ship and deck selectors for all nine ships.
+- Added searchable cabin ranges, venues, accessible rooms, and step-free routes.
+- Added seven responsive top-down deck diagrams and cabin-category legends.
+- Rebuilt the destinations directory with seasons, voyage lengths, and signature ports.
+- Added eight destination detail pages with port timelines, voyage highlights, and booking links.
+
 ## 2.1.0-alpha.3 — 2026-08-11
 
 - Added multi-step booking, live pricing, confirmation, and printable boarding pass.
