@@ -1,5 +1,9 @@
 # Changelog
 
+## 2.1.0-alpha.3 — 2026-08-11
+
+- Added multi-step booking, live pricing, confirmation, and printable boarding pass.
+
 ## 2.1.0-alpha.2 — 2026-08-05
 
 - Integrated three original Onue Line fleet photographs into the main site source.
