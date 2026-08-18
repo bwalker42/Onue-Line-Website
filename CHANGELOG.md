@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased — 2026-08-18
+
+- Connected the booking form’s guest contact information to the demo boarding pass.
+- Made the passenger name, email, voyage, ship, cabin, dining time, traveler count, and booking reference dynamic.
+- Replaced the hard-coded “Alex Morgan” passenger details with browser-tab-only booking data.
+- Added required guest contact validation and safe placeholder details when no booking is available.
+
 ## 2.1.0-beta.1 — 2026-08-11
 
 - Added interactive ship and deck selectors for all nine ships.
