@@ -2,6 +2,7 @@
 
 ## Unreleased — 2026-08-18
 
+- Added Emerald Tanic as the tenth Onue Line ship, including Emerald Class specifications, original fleet photography, a ship profile, gallery and deck-plan integration, booking support, and the new Emerald Isles voyage.
 - Added distinct approved fleet photography for Silvertanic, Diamondtanic, Rubytanic, Bronze Tannic, Mega Titanic, Mega Britannic, and Bulltannic 4.0.
 - Centralized ship image paths in the fleet data and connected them to the homepage, fleet directory, gallery, and individual ship pages.
 - Connected the booking form’s guest contact information to the demo boarding pass.

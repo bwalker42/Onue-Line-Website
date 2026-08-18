@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 
 type Booking = { reference: string; name: string; email: string; guests: number; voyage: string; ship: string; cabin: string; dining: string };
 const fallback: Booking = { reference: "OLC-DEMO", name: "Guest Passenger", email: "Complete a booking to add contact details", guests: 1, voyage: "Your selected voyage", ship: "Onue Line", cabin: "To be assigned", dining: "To be selected" };
-const shipCodes: Record<string, string> = { Goldentanic: "GLD", Silvertanic: "SLV", Diamondtanic: "DIA", Rubytanic: "RBY", "Bronze Tannic": "BRZ", "Mega Titanic": "MGT", "Mega Britannic": "MGB", "Bulltannic 3.0": "BL3", "Bulltannic 4.0": "BL4" };
+const shipCodes: Record<string, string> = { Goldentanic: "GLD", Silvertanic: "SLV", Diamondtanic: "DIA", Rubytanic: "RBY", "Bronze Tannic": "BRZ", "Mega Titanic": "MGT", "Mega Britannic": "MGB", "Bulltannic 3.0": "BL3", "Bulltannic 4.0": "BL4", "Emerald Tanic": "EMR" };
 
 export default function Page() {
   const [booking, setBooking] = useState<Booking | null>(null);
