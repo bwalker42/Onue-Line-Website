@@ -1,1 +1,14 @@
-import{PageHero}from"../components/PageHero";export default function Page(){return <><PageHero kicker="FLEET GALLERY" title="Life at sea, beautifully framed.">A first look at the ships and seascapes shaping the Onue Line experience.</PageHero><section className="content gallery"><figure className="widePhoto"><img src="/images/fleet/bulltannic-3-hero.png" alt="Bulltannic 3.0 sailing at sunset"/><figcaption>Bulltannic 3.0 · Golden-hour departure</figcaption></figure><figure><img src="/images/fleet/goldentanic.png" alt="Goldentanic sailing near the Mediterranean coast"/><figcaption>Goldentanic · Mediterranean waters</figcaption></figure><figure><img src="/images/fleet/sister-ships.png" alt="Silvertanic and Rubytanic sailing together"/><figcaption>Sister ships · Silvertanic and Rubytanic</figcaption></figure></section></>}
+import { PageHero } from "../components/PageHero";
+import { ships } from "../data";
+
+export default function Page() {
+  return <>
+    <PageHero kicker="FLEET GALLERY" title="Life at sea, beautifully framed.">A first look at the ships and seascapes shaping the Onue Line experience.</PageHero>
+    <section className="content gallery">
+      {ships.map((ship, index) => <figure className={index === 0 ? "widePhoto" : ""} key={ship.slug}>
+        <img src={ship.image} alt={`${ship.name} sailing at sea`} />
+        <figcaption>{ship.name} · {ship.tagline}</figcaption>
+      </figure>)}
+    </section>
+  </>;
+}

@@ -2,6 +2,8 @@
 
 ## Unreleased — 2026-08-18
 
+- Added distinct approved fleet photography for Silvertanic, Diamondtanic, Rubytanic, Bronze Tannic, Mega Titanic, Mega Britannic, and Bulltannic 4.0.
+- Centralized ship image paths in the fleet data and connected them to the homepage, fleet directory, gallery, and individual ship pages.
 - Connected the booking form’s guest contact information to the demo boarding pass.
 - Made the passenger name, email, voyage, ship, cabin, dining time, traveler count, and booking reference dynamic.
 - Replaced the hard-coded “Alex Morgan” passenger details with browser-tab-only booking data.
